@@ -1,0 +1,66 @@
+
+@media screen and (min-width: 600px){
+	body{
+		background: red;
+	}
+}
+@media screen and (min-width: 800px){
+	body{
+		background: yellow;
+	}
+}
+@media screen and (min-width: 1000px){
+	body{
+		background: pink;
+	}
+}
+h1{
+	font-size: 30px;
+	text-align: center;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+section#footer{
+	margin-top: 450px;
+	color: orange;
+	font-size: 25px;
+}
+img{
+	width: 300px;
+	height: 250px;
+}
+img#two{
+	width: 300px;
+	height: 250px;
+	margin-left: 350px;
+	margin-top: -330px;
+}
+img#three{
+	width: 300px;
+	height: 250px;
+	margin-left: 700px;
+	margin-top: -400px;
+}

@@ -5,29 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Blog</title>
-    <link rel="stylesheet" type="text/css" href="webproject.css"/>
+    <link rel="stylesheet" type="text/css" href="webproject.css" />
 
 </head>
 
 <body>
-    <nav id="navbar"> 
-        <li> <a href="#"> Home </a></li> 
-        <li> <a href="#"> About us</a></li> 
-        <li> <a href="#"> Interests</a></li> 
-        <li> <a href="#"> Contacts</a></li> 
-    </nav>
-    <section id="welcome-section">
+    <nav id="navbar">
+         <ul>
+            <li> <a href="#welcome-section"> Home </a></li>
+            <li> <a href="#"> About us</a></li>
+            <li> <a href="#footer">Interests</a></li>
+            <li> <a href="#"> Contacts</a></li>
+        </ul>
+        
+     </nav>
+    <section id="welcome-section">   
         <h1>Welcome to my Blog</h1>
     </section>
     <section id="projects">
-        <div class="projects-tile">
+        <div class="project-tile">
+            <div class="card">
+                <img id="one" src="./images/me.jpg">
+            </div>
+            <div class="card">
+                <img id="two" src="./images/one.jpg">
+            </div>
+            <div class="card">
+                <img id="three" src="./images/pic01.jpg">
+            </div>
             <a href="#"></a>
 
         </div>
+        <div id="profile-link"> <a href="https://github.com/zydplatform/web-projectmicroverse.git" target="_blank"> Link to My GitHub</a></div>
     </section>
-    <div id="profile-link">
-        <a href="https://github.com/zydplatform/web-projectmicroverse.git" target="_blank"> Link to My GitHub</a>
-    </div>
+    <section id="footer">
+        <div>
+            Thanks for visiting us come back again!
+        </div>
+    </section>
+
 </body>
 
-</html> 
+</html>
